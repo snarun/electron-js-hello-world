@@ -1,0 +1,22 @@
+{
+  "name": "electron-js-hello-world",
+  "version": "1.0.0",
+  "description": "A simple TypeScript CLI that says hello.",
+  "main": "dist/index.js",
+  "bin": {
+    "hello-world-cli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "npm run build && node dist/index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2",
+    "jest": "^29.7.0"
+  }
+}
